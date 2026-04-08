@@ -1,11 +1,17 @@
-Route Optimization & Graph Theory
-These projects focus on finding the most efficient path using Greedy or Dynamic Programming approaches.
+# 🚀 Smart Transit Planner
 
-Smart Public Transit Planner: Build a system that finds the shortest or cheapest path between two locations using multiple modes of transport (bus, train, walking).
+A Route Optimization engine built with **Python** using **Graph Theory** and **Dijkstra's Algorithm**.
 
-Algorithms: Dijkstra’s, A*, or Bellman-Ford (to handle "negative" costs like time-saving transfers).
+## ✨ Features
+- **Shortest Path Logic:** Uses a Priority Queue (Greedy approach) to find the fastest route.
+- **Transfer Penalties:** Simulates real-world delays when switching between transport modes (e.g., Bus to Train).
+- **JSON Data Layer:** Easily expandable map system.
 
-Courier Delivery Optimization: A variation of the Traveling Salesperson Problem (TSP) where a delivery driver must visit multiple locations in the most efficient order.
+## 🛠️ Tech Stack
+- **Language:** Python 3.x
+- **Algorithm:** Dijkstra's (Greedy)
+- **Data Format:** JSON
 
-Algorithms: Kruskal’s/Prim’s (for network layout) and Genetic Algorithms or Branch and Bound for TSP.
-
+## 🚦 How to Run
+1. Clone the repo: `git clone https://github.com/nandani2104s/TransitPlanner.git`
+2. Run the script: `python planner.py`
