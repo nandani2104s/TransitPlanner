@@ -1,0 +1,11 @@
+{
+    "stops": ["Central", "North", "West", "Airport", "South"],
+    "routes": [
+        { "from": "Central", "to": "North", "cost": 10, "mode": "Bus" },
+        { "from": "Central", "to": "West", "cost": 15, "mode": "Train" },
+        { "from": "North", "to": "Airport", "cost": 20, "mode": "Bus" },
+        { "from": "West", "to": "Airport", "cost": 10, "mode": "Train" },
+        { "from": "West", "to": "South", "cost": 5, "mode": "Walking" },
+        { "from": "South", "to": "Airport", "cost": 12, "mode": "Bus" }
+    ]
+}
